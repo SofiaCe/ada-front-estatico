@@ -1,0 +1,42 @@
+* {
+    background-color:rgb(24, 28, 35);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+h1 {
+    color:  rgb(166, 247, 80);
+}
+
+input {
+    width: 100%;
+    border-bottom-color: rgb(166, 247, 80);
+    margin-bottom: 15px;
+}
+
+.coisas, #sim, #nao {
+    width: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+p {
+    margin: 0%;
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#b-desisti {
+    background-color: rgb(70, 69, 69);
+}
+
+#b-enviar {
+    background-color: rgb(166, 247, 80);
+    color: black;
+}
