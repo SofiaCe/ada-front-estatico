@@ -1,0 +1,130 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+img {
+    max-width: 380px;
+    max-height: 190px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    height: 50px;
+    font-size: 35px;
+    background-color: white;
+    text-align: center;
+    /* position: sticky;
+    top: 0; */
+}
+
+thead {
+    height: 50px;
+}
+
+th {
+    background-color: darksalmon;
+    /* position: sticky;
+    top: 50px; */
+}
+
+th a {
+    color: white;
+    font-size: 20px;
+}
+
+td {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 1px 20px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+caption a:hover {
+    text-decoration: none;
+}
+
+figcaption {
+    text-align: left;
+}
+
+figcaption a {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+tfoot {
+    background-color: rgb(223, 221, 221);
+}
+
+ul > li:first-child {
+    list-style: none;
+}
+
+ol > li:first-child {
+    list-style: none;
+
+}
+
+.lado {
+    background-color: rgb(201, 224, 217);
+    width: 300px;
+}
+
+.espaco td {
+    height: 50px;
+    text-align: right;
+}
+
+.titulo td {
+    height: 10px;
+    text-align: left;
+}
+
+.titulo h1 {
+    height: 10px;
+    text-align: center;
+}
+
+.introducao {
+    background-color: rgb(255, 245, 245);
+}
+
+.receita {
+    text-align: left;
+}
+
+.caixinha > div {
+    background-color: rgb(255, 245, 245);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#logo img {
+    max-height: 400px;
+    max-width: 7500px;
+    width: 750px;
+}
+
+#panela {
+    margin: 5px 0 1px 0;
+}
