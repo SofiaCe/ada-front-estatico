@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Outro Kit Ada</title>
+    <link rel="stylesheet" href="./form_style.css">
+</head>
+<body>
+    <main>
+        <h1>Preencha este formulário para receber outro Kit Ada</h1>
+
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nm-completo" required>
+            </div>
+            
+            <div>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" name="nm-nascimento" required>
+            </div>
+            
+            <div>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" id="e-mail" name="nm-email" required>
+            </div>
+            
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="nm-senha" required>
+            </div>
+            
+            <div>
+                <p>Você está participando de algum programa da Ada no momento?</p>
+                <input type="radio" id="sim" name="participando" value="sim" required>
+                <label for="sim">Sim</label> <br>
+                <input type="radio" id="nao" name="participando" value="nao" required>
+                <label for="nao">Não</label>
+            </div>
+
+            <div>
+                <p>Tem que ter:</p>
+                <input type="checkbox" id="livro" class="coisas" name="tem-q-ter" value="livro">
+                <label for="livro">Livro</label> <br>
+                <input type="checkbox" id="fone" class="coisas" name="tem-q-ter" value="fone">
+                <label for="fone">Fone</label> <br>
+                <input type="checkbox" id="webcam" class="coisas" name="tem-q-ter" value="webcam">
+                <label for="webcam">Webcam</label> <br>
+                <input type="checkbox" id="copo" class="coisas" name="tem-q-ter" value="copo">
+                <label for="copo">Copo</label>
+            </div>
+            
+            <div>
+                <button type="reset" id="b-desisti">Desisti</button>
+                <button type="submit" id="b-enviar">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <!-- <footer>
+        <h5>Não é real &#128546;</h5>
+    </footer> -->
+</body>
+</html>
